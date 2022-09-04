@@ -1,0 +1,28 @@
+{
+  "name": "spotifyer",
+  "version": "1.0.0",
+  "description": "A Spotify application that exposes refined search criteria to find new or similar music",
+  "main": "dist/main.js",
+  "scripts": {
+    "startdev": "tsc -b && nodemon src/main.ts",
+    "start": "tsc -b && node dist/main.js",
+    "build": "tsc --build",
+    "clean": "tsc --build --clean",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hanksterhan/Spotifyer.git"
+  },
+  "author": "Henry",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hanksterhan/Spotifyer/issues"
+  },
+  "homepage": "https://github.com/hanksterhan/Spotifyer#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.19",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.2"
+  }
+}
